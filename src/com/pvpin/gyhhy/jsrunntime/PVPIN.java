@@ -146,4 +146,10 @@ public class PVPIN extends org.bukkit.plugin.java.JavaPlugin implements Listener
             eventRunner.call(e, e,level);
         }
     }
+    public boolean isAlpha(){
+        return getVersion().startsWith("alpha");
+    }
+    public String getVersion() {
+        return "alpha 0.0.1";
+    }
 }
