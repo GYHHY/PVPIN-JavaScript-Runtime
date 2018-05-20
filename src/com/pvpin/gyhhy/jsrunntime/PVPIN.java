@@ -73,6 +73,7 @@ public class PVPIN extends org.bukkit.plugin.java.JavaPlugin implements Listener
         JavaScriptEventListener l = JavaScriptEventListener.eventListener;
         this.getPluginLoader().createRegisteredListeners(l, this);
         this.listener = l;
+        UpdateCheck.check();
         getLogger().info("PVPIN ok");
     }
     public String dataInit(String src){
