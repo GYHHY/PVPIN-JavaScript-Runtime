@@ -1,4 +1,4 @@
-# PVPIN-JavaScript-Runtime update record
+# PVPIN-JavaScript-Runtime update record<br>PVPIN-JavaScript-Runtime更新记录
 
 English<br>
 Download the source code, please download the following file
@@ -12,7 +12,7 @@ sours.zip<br>
 
 <pre>
 v1.0.1
-    add setting
+    add setting #添加一些可设置配置
 before
     #The author has forgotten
-
+    #作者(me)已经忘掉了
